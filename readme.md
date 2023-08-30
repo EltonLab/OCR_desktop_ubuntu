@@ -1,8 +1,7 @@
 I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo        
 
 
-<iframe src="https://rr1---sn-un57snee.c.drive.google.com/videoplayback?expire=1693400739&ei=cxTvZPr0NojU-LYP65CcuA0&ip=2001:b011:b0d0:1f81:b619:8c42:620:4724&cp=QVROVUVfT1dRSlhPOllBcUtvOEZmbjFMamE5VzZBOVBCam9weEU2d1phcldPN0tZVk1icVdBXzg&id=d58bb8b0ae9a6271&itag=18&source=webdrive&requiressl=yes&mh=VV&mm=32&mn=sn-un57snee&ms=su&mv=u&mvi=1&pl=56&ttl=transient&susc=dr&driveid=1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=36.130&lmt=1693385596283942&mt=1693388439&subapp=DRIVE_WEB_FILE_VIEWER&txp=0006224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhALYunsFl9aq51l_YM5RN91mWDgzWgxNZwVXwNgbHrrStAiB2epp-t0J0sf0AjCqMcUqhB6lWwQMhRx8mZSFtp7dFgA==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAN9YqkU_uT3UkORwLgMq3urH14JZ8zsFBGF-IW_YOHTLAiEA7vwwCBwFj06IavQS8ZIET44n8_8TyDN_ZVJWYQtPkj0=&cpn=qfMZZIaEmiQwArAT&c=WEB_EMBEDDED_PLAYER&cver=1.20230827.00.00" style="width:100%; height:600px; border:0;"></iframe>
-  
+<iframe src="https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview" width="640" height="480" allow="autoplay"></iframe>
 
 
 
