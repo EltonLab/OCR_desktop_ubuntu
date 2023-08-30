@@ -1,8 +1,9 @@
 I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo        
 
 
-<iframe src="https://github.com/EltonLab/ocr_desktop_ubuntu/assets/143599700/8589147c-b186-4ee6-942d-e3d92102adde" width="640" height="480" allow="autoplay"> </iframe>
+<iframe src="https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview" width="640" height="480" allow="autoplay"> </iframe>
 
+![](https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview)
 
 
 ### project setup
