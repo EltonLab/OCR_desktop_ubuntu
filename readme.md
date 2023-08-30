@@ -1,7 +1,7 @@
 I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo        
 
 
-<iframe src="https://drive.google.com/embeddedfolderview?id=FOLDER-ID#list" style="width:100%; height:600px; border:0;"></iframe>
+<iframe src="https://rr1---sn-un57snee.c.drive.google.com/videoplayback?expire=1693400739&ei=cxTvZPr0NojU-LYP65CcuA0&ip=2001:b011:b0d0:1f81:b619:8c42:620:4724&cp=QVROVUVfT1dRSlhPOllBcUtvOEZmbjFMamE5VzZBOVBCam9weEU2d1phcldPN0tZVk1icVdBXzg&id=d58bb8b0ae9a6271&itag=18&source=webdrive&requiressl=yes&mh=VV&mm=32&mn=sn-un57snee&ms=su&mv=u&mvi=1&pl=56&ttl=transient&susc=dr&driveid=1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=36.130&lmt=1693385596283942&mt=1693388439&subapp=DRIVE_WEB_FILE_VIEWER&txp=0006224&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIhALYunsFl9aq51l_YM5RN91mWDgzWgxNZwVXwNgbHrrStAiB2epp-t0J0sf0AjCqMcUqhB6lWwQMhRx8mZSFtp7dFgA==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAN9YqkU_uT3UkORwLgMq3urH14JZ8zsFBGF-IW_YOHTLAiEA7vwwCBwFj06IavQS8ZIET44n8_8TyDN_ZVJWYQtPkj0=&cpn=qfMZZIaEmiQwArAT&c=WEB_EMBEDDED_PLAYER&cver=1.20230827.00.00" style="width:100%; height:600px; border:0;"></iframe>
   
 
 
@@ -24,38 +24,7 @@ here is some problem I've encounter when trying to install paddlepaddle, and the
 [FatalError: Segmentation fault](https://github.com/PaddlePaddle/PaddleOCR/issues/10014)
 [AttributeError: 'FreeTypeFont' object has no attribute 'getsize'](https://github.com/tensorflow/models/issues/11040)
 
-### download the weights
-#### download from official website
-model are all download from [this page (en)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md) or [this page (zh)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_ch/models_list.md)      
-basically, you just need to download the detection model, and recognition model with the language you want to use, and then put it into the ``./model`` directory
-#### quick download
-I've put the weight I'm using in [google drive](https://drive.google.com/drive/folders/1Gi-H8a6pmy267T2IKOVyJWqwbKEqnFoM),   just download and extract it,  replace the current `model` folder with the new downloaded `model` folder.             
-#### detection model
-one thing to note is that sometimes you don't need to download every detection model, for example the chinise detection model can also detect english sentence (performance might drop a little bit, but it's doesn't )
-##### [chinese detection model](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#1-chinese-detection-model)
-make sure to download the inference model, not the train model.
-and the chinese detection model version should be v3
-##### [english detection model](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#12-english-detection-model)
-english detection model version should be v3
-##### [Multilingual detection (japanese/korean/....)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#13-multilingual-detection-model)   
-<img src="assets/2023-08-30-12-08-55.png" alt= “” width="600px" >   
-Multilingual detection model version should be v3
 
-#### recognition model
-##### [chinese recognition](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#21-chinese-recognition-model)   
-you can download either v4 or v3, make sure to download the inference model, not the train model   
-##### [english recognition](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#22-english-recognition-model)   
-you can download either v4 or v3  
-##### [Multilingual Recognition (japanese/korean/....)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#23-multilingual-recognition-modelupdating)
-<img src="assets/2023-08-30-12-10-08.png" alt= “” width="800px" >   
-japanese recognition model should be v3     
-
-#### file sturcture
-Remember to unzip all of the zip and tar files.       
-after download your file structure should look something like this. 
-<img src="assets/2023-08-30-12-18-43.png" alt= “” width="300px" >   
-    
-total size of the folder should be around 50 mb
 
 ### run the model
 #### gui
@@ -99,3 +68,28 @@ click "Add shortcut"
 and set to any keyboard shortcut you like
      
 <img src="assets/2023-08-13-17-00-49.png" alt= “” width="400px" >
+
+
+### download the weights from official website
+weights are already in the download folder, but sometimes you will want to download other language from the official website.  
+model are all download from [this page (en)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md) or [this page (zh)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_ch/models_list.md)      
+basically, you just need to download the detection model, and recognition model with the language you want to use, and then put it into the ``./model`` directory          
+#### detection model
+one thing to note is that sometimes you don't need to download every detection model, for example the chinise detection model can also detect english sentence (performance might drop a little bit, but it's doesn't )
+##### [chinese detection model](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#1-chinese-detection-model)
+make sure to download the inference model, not the train model.
+and the chinese detection model version should be v3
+##### [english detection model](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#12-english-detection-model)
+english detection model version should be v3
+##### [Multilingual detection (japanese/korean/....)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#13-multilingual-detection-model)   
+<img src="assets/2023-08-30-12-08-55.png" alt= “” width="600px" >   
+Multilingual detection model version should be v3
+
+#### recognition model
+##### [chinese recognition](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#21-chinese-recognition-model)   
+you can download either v4 or v3, make sure to download the inference model, not the train model   
+##### [english recognition](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#22-english-recognition-model)   
+you can download either v4 or v3  
+##### [Multilingual Recognition (japanese/korean/....)](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.7/doc/doc_en/models_list_en.md#23-multilingual-recognition-modelupdating)
+<img src="assets/2023-08-30-12-10-08.png" alt= “” width="800px" >   
+japanese recognition model should be v3     
