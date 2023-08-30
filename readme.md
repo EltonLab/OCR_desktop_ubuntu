@@ -1,11 +1,9 @@
-I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo        
 
 
-<iframe src="https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview" width="640" height="480" allow="autoplay"> </iframe>
+### [demo video](https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview)
 
-![](https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview)
-
-
+I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo           
+       
 ### project setup
 to run this project you'll need to download the paddleOCR or paddleOCR-gpu deep learning framework,  
 
