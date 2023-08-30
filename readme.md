@@ -2,6 +2,10 @@
 
 ### [demo video](https://drive.google.com/file/d/1-hgTDnwWRqIFXItQzUt-WLcEGQymZG9P/preview)
 
+
+https://github.com/EltonLab/ocr_desktop_ubuntu/assets/143599700/e6ff9ce8-7ee2-4542-aa21-dd97ee3b24f5
+
+
 I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo           
        
 ### project setup
