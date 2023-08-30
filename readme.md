@@ -1,7 +1,7 @@
 
 
 ### demo video
-<img src="https://github.com/EltonLab/ocr_desktop_ubuntu/assets/143599700/97d7b5ed-f9cb-4e47-b312-552a324f364c" alt= “” width="800px" >
+![](https://github.com/EltonLab/ocr_desktop_ubuntu/assets/143599700/97d7b5ed-f9cb-4e47-b312-552a324f364c)
 
 
 I made a simple gui for [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7), most of the code are just from their repo, this project has only be tested on ubuntu 22.04          
